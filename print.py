@@ -10,4 +10,4 @@ print(c);
 a=18;
 b=20;
 c=a+b;
-print("Addition of",a,"and",b,"is",c);
+print(f"Addition of {a} and {b} is {c}");
