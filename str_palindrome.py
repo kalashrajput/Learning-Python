@@ -1,7 +1,7 @@
 #WAP to check a string is palindrome or not.
-a=input("Enter a string - ");
-b=a[::-1];
+a=input("Enter a string - ")
+b=a[::-1]
 if(a==b):
     print(a,"is a palindrome.")
 else:
-    print(f"{a} is not a palindrome ");
+    print(f"{a} is not a palindrome ")
