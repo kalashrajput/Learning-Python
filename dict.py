@@ -68,4 +68,3 @@ for char in sentence:
     else:
         counter[char] = 1
 print(counter)
-
