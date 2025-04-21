@@ -21,5 +21,4 @@ else:
         print("Kamles wins!")
     else:
         print("Bhishika wins!")
-
 print("Thank You For Playing :) ")

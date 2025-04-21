@@ -1,3 +1,5 @@
+#List items are ordered, changeable, and allow duplicate values.
+
 #Making a list :
 l=[1,2,3.5,"hello",True,[5,6,7]]
 l1=[1,2,3,1,5,1,8,6]
@@ -43,6 +45,9 @@ print(h)
 #sort : 
 g=l.sort
 print(g)
+#sort in descending order.
+h=l1.sort(reverse=True) 
+print(h)
 #index :
 print(l1.index(5))
 #concatination :
@@ -53,3 +58,6 @@ U=list(u)
 print(U)
 j=u.split()
 print(j)
+#copying a list :
+k=l.copy()
+print(k)

@@ -1,12 +1,22 @@
+#Dictionaries are used to store data values in key:value pairs.
+#A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+
 #Making dictionaries :
-dict={"name":"kalash","age":"19","course":"bca"}
-dict1={"name":"queen","age":"19","course":"bca"}
+dict={
+    "name":"kalash",
+    "age":"19",
+    "course":"bca"}
+dict1={"name":"queen",
+       "age":"19",
+       "course":"bca"}
 print(dict)
+print(dict1)
 #type of data :
 print(type(dict))
 #from list of tuples :
 lot=[("kalash",19),("mahak",18),("anshu",22)]
-print(lot)
+print(lot)  
 #accessing dictionaries elements via keys :
 print(dict["age"])
 #accessing dictionaries elements using get() method :

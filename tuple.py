@@ -1,3 +1,5 @@
+#Tuple items are ordered, unchangeable, and allow duplicate values.
+
 #Making a tuple :
 t=(1,2,3,4,5,6)
 print(t)
@@ -40,3 +42,19 @@ l1=list(t)
 l1.append(7)
 t3=tuple(l1)
 print(t3)
+#unpacking a tuple :
+fruits = ("apple", "banana", "cherry")
+(green,yellow,cherry)=fruits
+print(green)
+#another way of unpacking a tuple using asterisk (*) operator:
+fruits = ("apple", "banana", "cherry", "orange", "kiwi", "mango")
+(green, *yellow, red) = fruits
+print(green)
+print(yellow)
+print(red)
+#loop through a tuple :
+for i in t:
+    print(i)
+#using len() in for loop :
+for i in range(len(t)):
+    print(t[i])
